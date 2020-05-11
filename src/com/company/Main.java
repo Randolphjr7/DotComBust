@@ -9,12 +9,7 @@ public class Main {
         // Test if GameHelper correctly prompts user
         GameHelper test = new GameHelper();
 
-        test.askUsers("Please Enter your name");
-        test.getInputLine();
-
-
-
-
+        test.getUserInput("Please enter your name");
 
 
 
