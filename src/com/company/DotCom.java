@@ -16,7 +16,7 @@ public class DotCom {
         name = input;
     }
 
-    public void improvedSetLocationCells(ArrayList<String> loc) {
+    public void setLocationCells(ArrayList<String> loc) {
         locationCells = loc;
     }
 
@@ -29,7 +29,7 @@ public class DotCom {
             if(locationCells.isEmpty()) {
                 result = "kill";
             } else {
-                result = "miss";
+                result = "hit";
             }
         }
 

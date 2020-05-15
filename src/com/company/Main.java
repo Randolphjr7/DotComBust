@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Test if GameHelper correctly prompts user
-        GameHelper test = new GameHelper();
+        DotComBust game1 = new DotComBust();
 
-        test.getUserInput("Please enter your name");
+        game1.setUpGame();
+        game1.startPlaying();
 
 
 
